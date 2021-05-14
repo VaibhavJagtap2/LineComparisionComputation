@@ -39,11 +39,22 @@ public class GeometryLineProblem {
 	 else {
 		 System.out.println("lines are Not Equal");
 	 }
-		 
+	 
+	 Integer length1= (int) lengthline1;
+	 Integer length2= (int) lengthline2;
+	 	int result= length1.compareTo(length2);
+	 	System.out.println("result");
+	 if (result==0) {
+	 	System.out.println("Equals");
+	 }	
+	 else if (result>0)	{
+		 System.out.println("line1 is Greater");
+	 }
+	 else {
+		 System.out.println("line2 is Greater");
+	 }
+  }
 }
 
-	 
-	 
-}
 
 
